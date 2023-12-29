@@ -1,0 +1,26 @@
+.containerFoto {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  justify-content: space-between;
+  padding: 10px;
+  box-shadow: 0 0 10px #207cb97d;
+}
+
+.cardFoto {
+  width: 200px;
+  margin: 10px;
+  background-color: rgba(252, 252, 252, 0.097);
+  padding: 5px;
+  box-sizing:content-box;
+  border-radius: 5px;
+}
+
+.imgFotoCard {
+  width: 100%;
+  border-radius: 5px;
+}
+
+

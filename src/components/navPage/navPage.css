@@ -1,0 +1,63 @@
+.menuContainer {
+  width: 25%;
+  background-color: #0c3a58;
+  border-right: 1px solid #052b44; 
+  
+}
+
+.navPageLogo {
+  width: 100%;
+  height: fit-content;
+  border-bottom: 1px solid #052b44;
+  display: flex;
+  position: relative;
+}
+
+.userLogoMenu {
+  width: 100px;
+  padding: 10px;
+  margin-bottom: 30px;
+  position: sticky;
+  top: 50px;
+} 
+
+.linkNav {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.imgSettings {
+  width: 15px;
+}
+
+.nawPage {
+  display: block;
+  position: sticky;
+  top: 200px;
+}
+
+.linkMenu {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #0c3a58;
+  color: white;
+}
+
+.imgLinkMenu {
+  width: 15px;
+  margin:0 10px 0 5px;
+}
+
+.linkMenu:hover {
+  background-color: #135784;
+}
+
+.active {
+  background-color: #135784;
+}
+

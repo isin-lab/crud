@@ -1,0 +1,55 @@
+.containerFriends {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cardFriends {
+  width: 250px;
+  height: fit-content;
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.051);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.flexWrapperHeader {
+  display: flex;
+  align-items: flex-start;
+  padding: 5px;
+  border-bottom: 2px solid #0c3a58;
+  margin-bottom: 10px;
+}
+
+.imgLogoCardFriends {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.friendsName {
+  font-size: 18px;
+}
+
+
+
+.flexWrapper {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.flexWrapper:hover {
+ background-color: #0c3a58;
+ cursor: pointer;
+ border-radius: 10px;
+}
+
+.iconCardFriends {
+  width: 14px;
+  margin-right: 10px;
+}
+
+.friendsText {
+  font-size: 14px;  
+}

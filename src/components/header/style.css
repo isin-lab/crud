@@ -1,0 +1,36 @@
+.header {
+  width: 100%;
+  max-width: 1200px;
+  height: 50px;
+  background-color: #0c3a58;
+  border-bottom: 1px solid #052b44;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  color: white;
+  margin: 0 auto;
+  z-index: 10;
+  top:0;
+}
+
+.logoHeader {
+  font-weight: 500;
+}
+
+.headerEnd { 
+  display: flex;
+  width: fit-content;
+}
+
+.btnHeader {
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+
+
